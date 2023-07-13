@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #171717;
+
+}
+
+.card1{
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.144);
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.205), inset 0 20px 20px rgba(253, 253, 253, 0.205);
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.336);
+    position: relative;
+    transition: box-shadow .4s , color .8s , transform .4s;
+
+}
+
+.card2{
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.144);
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.205), inset 0 20px 20px rgba(253, 253, 253, 0.205);
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.336);
+    position: relative;
+    transition: box-shadow .4s , color .8s , transform .4s;
+
+}
+
+.card3{
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.144);
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.205), inset 0 20px 20px rgba(253, 253, 253, 0.205);
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.336);
+    position: relative;
+    transition: box-shadow .4s , color .8s , transform .4s;
+
+}
+
+.card4{
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.144);
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.205), inset 0 20px 20px rgba(253, 253, 253, 0.205);
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.336);
+    position: relative;
+    transition: box-shadow .4s , color .8s , transform .4s;
+
+}
+
+.card1:hover{
+    color: #ffffff;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+     transform: translateY(-18px); 
+}
+
+.card2:hover{
+    color: #ffffff;
+    background: rgb(66 103 178);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .25);
+    transform: translateY(-18px); 
+}
+
+.card3:hover{
+    color: #ffffff;
+    background: rgb(37, 211, 102);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .25);
+    transform: translateY(-18px); 
+}
+
+.card4:hover{
+    color: #ffffff;
+    background: rgb(29 161 242);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .25);
+    transform: translateY(-18px); 
+}
