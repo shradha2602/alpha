@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="emp.css">
+
+</head>
+<body>
+
+		<div id="div1">
+			<form action="database" method="post" onsubmit="return error()">
+			    <h1>Employee's Details</h1>
+				<label>Employee ID :  </label><br>
+				<input type="number" placeholder="Enter employee ID" name="id" id="empid">
+				<span id="eid"></span>
+				<label>Employee's Name : </label><br>
+				<input type="text" placeholder="Enter employee's Name" name="nm" id="empname">
+				<span id="ename" for="empname"></span>
+				<label>Employee's Place : </label><br>
+				<input type="text" placeholder="Enter employee's location" name="pl"><br>
+				<label>Employee's Role : </label><br>
+				<input type="text" placeholder="Enter employee's designation" name="rl"><br>
+				
+				<button type="submit">Click Me</button>
+		
+			</form>
+		</div>
+		
+		<script type="text/javascript" src="emp.js"></script>
+</body>
+</html>

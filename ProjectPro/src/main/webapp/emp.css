@@ -1,0 +1,112 @@
+@charset "ISO-8859-1";
+body{
+    margin: 0px;
+    padding: 0px;
+}
+span{
+	color: red;
+	font-size: 13px;
+}
+#div1{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     background-image: linear-gradient(to right, #870000, #190a05);
+     margin: auto auto;
+	 padding: 30px;
+	 border-radius: 5px;
+	 top: 0;
+	 bottom: 0;
+	 left: 0;
+	 right: 0;
+	 float: middle;
+}
+
+#div1::before{
+    width: 100%;
+	height: 100%;
+	background-size: cover;
+	content: "";
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	display: block;
+	filter: blur(15px);
+    
+}
+
+#div1 form{
+    width: 24%;
+    padding: 15px 28px 21px 24px;
+    height:fit-content;
+    background-color: rgba(52, 3, 3, 0.929);
+    box-shadow: 0 2px 4px rgba(247, 51, 51, 0.577), 0 8px 16px rgba(196, 38, 38, 0.729);
+    border-radius: 8px;
+}
+
+#div1 form div input {
+    font-size: 10px;
+}
+
+#div1 form h1{
+	color: #ddd;
+    font-size: 27px;
+	font-weight: 600;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#div1  form label{
+    color: #ffffff;
+    text-shadow: 0 2px 3px hsla(0deg, 0%, 0%, 0.25);
+}
+
+#div1 form input{
+    width: 100%;
+    height: 33px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    background-color: rgb(234, 229, 229);
+    border: none;
+}
+
+input:focus{
+    outline-color: rgb(210, 207, 207);
+}
+
+::placeholder{
+    padding-left: 1px;
+}
+
+#div1 form button{
+	background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%);
+    margin: 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 4px #eee;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: 102%;
+    height : 44px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom : 20px;
+    font-weight: 800;
+    font-size: 16px;
+    text-shadow: 0 2px 3px hsla(0deg, 0%, 0%, 0.25);
+}
+
+#div1 form button:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
